@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# System
+.DS_Store
+Thumbs.db
